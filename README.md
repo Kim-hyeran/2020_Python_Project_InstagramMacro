@@ -7,27 +7,28 @@ Python 기반의 Selenium(feat. Chrome Driver)을 사용하여 인스타그램�
   - Package Manager : [Anaconda:snake:](https://www.anaconda.com/)
   - Using Package : [requests, selenium, beautifulsoup4, time, random](https://www.anaconda.com/library)
   - Using Web Driver : [Chrome Web Driver](https://chromedriver.chromium.org/downloads)
-  > Use the same version as the Chrome Browser version you use
+    > Use the same version as the Chrome Browser version you use
 
-### Chrome Driver Setup(Selenium)
+### Instagram Macro
+#### Chrome Driver Setup(Selenium)
   - [Chrome Web Driver](https://chromedriver.chromium.org/downloads) 설치
   - Pycharm에 Web Driver 저장
   - 이용 경로를 불러와 driver에 담기
   
-### Instagram Login
+#### Instagram Login
   - 인스타그램 로그인 페이지 주소 가져오기
   - driver에 URL 주소 설정
   - 페이지 소스코드를 담아둔 driver에서 ID와 비밀번호 입력 칸 경로 찾기
   - ID와 비밀번호를 입력하고 로그인 버튼을 클릭하는 코드 작성
   
-### Hashtag Searching
+#### Hashtag Searching
   - 원하는 Hashtag Feed 페이지 주소를 저장
   - driver에 URL 주소 설정
 
-### Board List Input&Output(BeautifulSoup)
+#### Board List Input&Output(BeautifulSoup)
   - Feed의 각 게시물의 개별 주소만 수집
 
-### Like and Reply
+#### Like and Reply
   - for 반복문을 사용해 Feed 한 페이지의 게시물에 작업을 반복하도록 코드 작성
   - 무작위의 대기 시간 소요 후 작업을 수행하도록 설정
   - 댓글로 입력할 메시지 작성
